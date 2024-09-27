@@ -55,6 +55,7 @@
 
     <modules>
         <module>fibonacci</module>
+        <module>compression</module>
     </modules>
 
 </project>
