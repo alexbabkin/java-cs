@@ -21,7 +21,7 @@ public class EncryptionTest {
 
     @Test
     public void encryptionTest_EncryptionDecryption() {
-        String original = "Hello world";
+        String original = "Hello world!";
         EncryptedPair encrypted = Encryption.encrypt(original);
         String decrypted = Encryption.decrypt(encrypted);
         assertEquals(original, decrypted);
